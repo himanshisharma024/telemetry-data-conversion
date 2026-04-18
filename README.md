@@ -1,17 +1,20 @@
-# Telemetry Data Conversion Project
+# 📊 Telemetry Data Conversion Tool
 
-This project converts different telemetry JSON formats into a unified format using Python.
+Python utility for converting and processing telemetry data formats.
 
-## Features
-- Supports multiple input formats
-- Converts ISO timestamps to epoch milliseconds
-- Includes automated unit tests
+## 🎯 Purpose
+Efficiently converts telemetry data between different formats for analysis.
 
-## Files
-- main.py → conversion logic
-- data-1.json → input format 1
-- data-2.json → input format 2
-- data-result.json → expected output
+## 🛠️ Technologies
+- Python 3.x
+- Data processing libraries
 
-## Run
-python main.py
+## 🚀 Usage
+```python
+python convert_data.py input.csv output.json
+```
+
+## 📈 Features
+- Multiple format support
+- Data validation
+- Error handling
